@@ -8,3 +8,13 @@
  - Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.
  - Gang of Four(GOF) araştırınız.
  - Interface ve Abstract sınıflar arasındaki farklar nelerdir?
+
+
+# Github Lisanları
+
+
+
+
+## Kaynakça 
+
+- https://medium.com/@mehmet.baran/yaz%C4%B1l%C4%B1m-lisans-tipleri-mit-apache-gnu-1397af4d1fbb

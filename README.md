@@ -5,9 +5,9 @@
  - :heavy_check_mark: Github Learning Lab'de First Day ve First Week kısımlarını bitiriniz.
  - :heavy_check_mark: Agile-Scrum-Kanban kavramlarını araştırınız
  - Derste yaptığımız .Net Console uygulamasının .NetCore versiyonunu yazmayı deneyiniz.
- - Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.
+ - :heavy_check_mark: Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.
  - Gang of Four(GOF) araştırınız.
- - Interface ve Abstract sınıflar arasındaki farklar nelerdir?
+ - :heavy_check_mark: Interface ve Abstract sınıflar arasındaki farklar nelerdir?
 
 
 #Agile Scrum ve Kanban
@@ -175,11 +175,36 @@ KANBAN’da bu tekniklerden birisidir. Elinizde bulunan kaynakları nasıl daha 
 	* Yazılımın kullanılmasından dolayı ortaya çıkabilecek sorunlardan yazar sorumlu tutulamaz.
 	* Marka Hakları (This license explicitly states that it does NOT grant you trademark rights, even though licenses without such a statement probably do not grant you any implicit trademark rights.)
 
+# Github Flow nedir?
 
+GitHub flow, dağıtımların düzenli olarak yapıldığı ekipleri ve projeleri destekleyen, hafif, branch tabanlı bir iş akışıdır.
 
+- Master branchteki her şey yayınlanabilir.
 
+- Yeni bir şey üzerinde çalışmak için açıklayıcı bir şekilde adlandırılmış bir branch oluşturulur.
+
+- Geri bildirime veya yardıma ihtiyacınız olduğunda veya branchin birleştirilmeye hazır olduğunu düşündüğünüzde, bir pull request açılır.
+
+- Başka biri özelliği inceleyip onayladıktan sonra onu master branche birleştirebilirsiniz. Merge ve push işlemleri yapıldıktan sonra ana branch hemen yayına alınmalıdır.
+
+# Abstract vs İnterface 
+
+![İnterface vs Abstract](https://miro.medium.com/max/826/1*vmQhGSTGAeIIsCX0jEPUqg.jpeg)
+
+# Gang Of Four
+
+Yaklaşık 25 yıl önce Gang of Four (GoF) olarak bilinen Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides, **'Design Patterns — Elements of Reusable Object-Oriented Software'** adında kitap yayınladılar ve ilk kez yazılım alanında tasarım kalıpları (design patterns) kavramını ortaya attılar.
+
+Yazılım tasarım kalıpları 3 ana başlıkta incelenir. Bunlar:
+
+* **Creational Design Patterns ( Yaratımsal Tasarım Kalıpları ) :** Nesnelerin **oluşturulması** ve **yönetilmesi** ile ilgili tasarım kalıplardır. Meydana gelebilecek değişikliklere karşı sorun çıkarmayacak şekilde nesneleri nerede ve nasıl yaratmamız gerektiği konusunda bize yardımcı olurlar.
+	
+* **Structural Patterns (Yapısal Kalıplar):** Nesnelerin birbirleri ile olan ilişkilerini düzenleyen kalıplardır. Sınıflar ve nesnelerin birleştirilerek daha geniş yazılım gruplarının kurulmasına yardımcı olan tasarım kalıplarıdır.
+
+* **Behavioral Patterns (Davranışsal Kalıplar):** Birden fazla sınıfın bir işi yerine getirirken nasıl birlikte davranacağını belirleyen tasarım kalıplarıdır.
 ## Kaynakça 
 
 - https://mozanunal.com/2016/09/ack-kaynak-yazlm-lisans-turleri-ve/
 - https://medium.com/@PeopleBox/agile-nedir-scrum-nedir-ba%C5%9Far%C4%B1l%C4%B1-proje-y%C3%B6netimi-y%C3%B6ntemleri-nelerdir-64c4ae723496
 - https://medium.com/@sercandumansiz/kanban-tekni%C4%9Fi-nedir-4e2b3bdebd49
+- http://fehmicansaglam.net/git-flow-bir-gelistirme-surecinin-anatomisi

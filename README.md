@@ -1,15 +1,23 @@
 # II. Hafta Ödevleri
 
  - :heavy_check_mark: Yeni bir Gitthub repository oluştururken, repomuza ekleyebileceğimiz lisanslar nelerdir, bu lisanslar arasındaki farklar nelerdir?
- - Merge - Squash-Rebase arasındaki farklar nelerdir?
+ - :heavy_check_mark: Merge - Squash-Rebase arasındaki farklar nelerdir?
  - :heavy_check_mark: Github Learning Lab'de First Day ve First Week kısımlarını bitiriniz.
  - :heavy_check_mark: Agile-Scrum-Kanban kavramlarını araştırınız
- - Derste yaptığımız .Net Console uygulamasının .NetCore versiyonunu yazmayı deneyiniz.
+ - :heavy_check_mark: Derste yaptığımız .Net Console uygulamasının .NetCore versiyonunu yazmayı deneyiniz.
  - :heavy_check_mark: Github Flow'un alternatifleri nelerdir? Artılarını ve eksilerini karşılaştırınız.
- - Gang of Four(GOF) araştırınız.
+ - :heavy_check_mark: Gang of Four(GOF) araştırınız.
  - :heavy_check_mark: Interface ve Abstract sınıflar arasındaki farklar nelerdir?
 
+# Merge Squash Rebase
 
+Konuya başlamadan önce sıkça kullandığımız git merge ve git rebase arasındaki farka bakalım;
+
+- **Git merge** ile yaptığımız birleştirmede yeni bir commit yaratacak ve yeni branch’deki tüm history tarafını kaybetmeden birleştirme işlemi gerçekleşmiş olcaktır.
+
+- **Git rebase** ile birleştirdiğimizde ise branch deki commit’lerimizi tek tek alıp istediğmiz branch üzerine ekleyecektir. Böylelikle tek bir history oluşturacak ve istenmeyen history ortadan kalkacaktır.
+
+- **Git squash**  komutu aslında farklı bir rebase kullanımı olarak değerlendirmek daha doğru olacaktır. Geçmişte atılan commit’leri yeniden düzenlemek, isimlendirmek veya birleştirmek için kullanıyoruz. Unutmamamız gereken bir nokta da, git squash işlemi yaptıktan sonra ‘force push’ kullanmamız gerektiğidir. İstenilen commit aralığını geri gidip yeniden düzenleme yaptıgımız için ‘force push’ kullanımı zorunludur.
 #Agile Scrum ve Kanban
 
 ## Agile 
@@ -199,12 +207,43 @@ Yazılım tasarım kalıpları 3 ana başlıkta incelenir. Bunlar:
 
 * **Creational Design Patterns ( Yaratımsal Tasarım Kalıpları ) :** Nesnelerin **oluşturulması** ve **yönetilmesi** ile ilgili tasarım kalıplardır. Meydana gelebilecek değişikliklere karşı sorun çıkarmayacak şekilde nesneleri nerede ve nasıl yaratmamız gerektiği konusunda bize yardımcı olurlar.
 	
+	* Abstract factory
+	* Builder
+	* Factory method
+	* Prototype
+	* Singleton
+
 * **Structural Patterns (Yapısal Kalıplar):** Nesnelerin birbirleri ile olan ilişkilerini düzenleyen kalıplardır. Sınıflar ve nesnelerin birleştirilerek daha geniş yazılım gruplarının kurulmasına yardımcı olan tasarım kalıplarıdır.
+	
+	* Adapter
+	* Bridge
+	* Composite
+	* Decorator
+	* Facade
+	* Flyweight
+	* Proxy
 
 * **Behavioral Patterns (Davranışsal Kalıplar):** Birden fazla sınıfın bir işi yerine getirirken nasıl birlikte davranacağını belirleyen tasarım kalıplarıdır.
+
+	* Chain of responsibility
+	* Command
+	* Interpreter
+	* Iterator
+	* Mediator
+	* Memento
+	* Observer (or Publish/Subscribe)
+	* State
+	* Strategy
+	* Template method
+	* Visitor
+
 ## Kaynakça 
 
 - https://mozanunal.com/2016/09/ack-kaynak-yazlm-lisans-turleri-ve/
 - https://medium.com/@PeopleBox/agile-nedir-scrum-nedir-ba%C5%9Far%C4%B1l%C4%B1-proje-y%C3%B6netimi-y%C3%B6ntemleri-nelerdir-64c4ae723496
 - https://medium.com/@sercandumansiz/kanban-tekni%C4%9Fi-nedir-4e2b3bdebd49
 - http://fehmicansaglam.net/git-flow-bir-gelistirme-surecinin-anatomisi
+- https://medium.com/neyasistechnology/git-rebase-squash-ile-ge%C3%A7mi%C5%9Fi-yeniden-d%C3%BCzenlemek-9de36441f947
+- https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries
+
+
